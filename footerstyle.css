@@ -1,0 +1,42 @@
+.footer {
+    background-color: #eb8fc4 ; /* Soft Pink */
+    padding: 100px;
+    text-align: center;
+    color: #FFFFFF;
+	font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    gap: 5px;
+    align-items: auto;
+}
+
+.social-media {
+	gap: 0px;
+	display: flex; /* Use flexbox for alignment */
+	justify-content: center; /* Center horizontally */
+	align-items: center;
+}
+.social-media {
+    width: 120px; /* Set the width */
+    height: 60px; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+

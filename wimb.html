@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" type="x-icon" href="logo.jpg">
+	<link rel="stylesheet" href="bringtop.css">
+	<link rel="stylesheet" href="headerstyle.css">
+	<link rel="stylesheet" href="marqueestyle.css">
+	<link rel="stylesheet" href="footerstyle.css">
+	<link rel="stylesheet" href="popoutstyle.css">
+	<link rel="stylesheet" href="menubarstyle.css">
+	<link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+	
+    <title>#WIMBrik campaign - brïk</title>	
+	<body>
+		<header>
+			<div class="logo">
+	<img src="logo.jpg" alt="brïk logo">
+	<span style="margin-right: 20px;"><a href="index.html">Home</span>	
+				<a href="about_us.html">About Us</a>
+				
+			</div>
+		</header>
+			<div class="marquee-container">
+				<div class="marquee">
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+				</div>
+			</div>
+		<div class="container">
+			<h1>#WIMBrik Campaign</h1>
+			<br><h3><center> ♡ What is #WIMBrik campaign ? ♡ </center></h3></br>
+			
+			<div class="subtitle">
+				<br><center> This campaign focuses on the women's field where customers can create a content about brik handbags and post it on social media such as TikTok and Instagram by using <br> #brik-ed in the caption section. </center></br> The content is about What’s In My Bag, showcasing what kind of things can fit in a brik handbag.
+			</div>
+			
+			
+			
+		</div>
+	
+			<br><h3><center> ♡ WIMBrik Content Videos ♡ </center></h3></br>
+			
+		<center><style="font-family: poppins, sans-serif; background-color: #f5f5f5; text-align: center; padding: 50px; letter-spacing: 1px"><center>
+
+		<a href="vid_wimb.html" style="text-decoration: none;" alt="Video Content">
+			<div style="
+				position: relative;
+				width: 350px;
+				height: 200px;
+				background-image: url('tibg.jpg'); 
+				background-size: cover;
+				background-position: center;
+				border-radius: 10px;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+				overflow: hidden;
+				display: inline-block;
+			">
+				<div style="
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					background: rgba(0, 0, 0, 0.5);
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: white;
+					font-size: 1.5em;
+					font-weight: bold;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					transition: opacity 0.3s ease;
+					opacity: 1;
+				">
+					WIMBrik VIDEOS <br> CONTENT </br>
+				</div>
+			</div>
+		</a>
+			
+			<div class="content">
+			<!-- Add content to scroll -->
+			<div style="height: 20px;"></div>
+		</div>
+			<div class="menu-icon">
+				<img src="campaignlogo.png" alt="brik-ed campaign" class="denim-icon">
+			</div>
+		<div class="dropdown-menu">
+			<ul>
+				<li><a href="wimb.html">#WIMBrïk CAMPAIGN</li>
+				<li><a href="trade_in.html">trade-in CAMPAIGN</a></li>
+			</ul>
+			<script src="dropdown.js"></script>
+		</div>
+		<button id="backToTop" onclick="scrollToTop()">
+			<img src="arrow.png" alt="Back to Top" class="back-to-top-logo">
+		</button>
+
+
+
+		<script>
+			// Function to open the modal with the clicked image
+			function openModal(imageElement) {
+				var modal = document.getElementById("modal");
+				var modalImage = document.getElementById("modal-image");
+				modal.style.display = "block";
+				modalImage.src = imageElement.src;
+			}
+
+			// Function to close the modal when clicked
+			function closeModal() {
+				var modal = document.getElementById("modal");
+				modal.style.display = "none";
+			}
+	 
+			// Show the "Back to Top" button when the user scrolls down
+			window.onscroll = function() {
+				const button = document.getElementById("backToTop");
+				if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+					button.style.display = "block";
+				} else {
+					button.style.display = "none";
+				}
+			};
+
+			// Scroll to the top function
+			function scrollToTop() {
+				window.scrollTo({top: 0, behavior: 'smooth'});
+			}
+	
+			function closePopup() {
+				const popup = document.getElementById('popup');
+				popup.style.animation = "fadeOut 0.5s ease";
+				setTimeout(() => popup.style.display = "none", 500);
+			}
+			// Menu section
+			const menuIcon = document.querySelector('.menu-icon');
+				const dropdownMenu = document.querySelector('.dropdown-menu');
+				menuIcon.addEventListener('click', () => {
+				dropdownMenu.style.display =
+				dropdownMenu.style.display === 'block' ? 'none' : 'block';
+			});
+		</script>
+		
+		<h2> Here at brïk., your thoughts, questions, feedbacks; they're all important to us.</h2>
+		<div class="form-container">
+		
+<form>
+		<input type="text" name ="name" placeholder="Name">
+		<input type="email" name ="email" placeholder="Email">
+		<input type="phone" name ="number" placeholder="Phone Number">
+		<input type="comment" rows="4"  placeholder="Comment">
+		<button type="send">Send</button>
+	</form>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+		<center><button><a href="disclaimer.html">Disclaimer</a></button></center>
+		
+			<footer class="footer">
+				<div class="footer-content">
+					<div class="footer-center">
+						<p>&copy; 2025 brïk. All rights reserved.</p>
+						<p>Follow us:</p>	
+							<br><div class="social-media"></br>
+								<a href="https://www.instagram.com/by.brik?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+								target="_blank"> <img src="insta_icon.png" alt="Instagram brïk"   class="social-media"> <p>Instagram</p>
+								</a>
+								<a href="https://www.tiktok.com/@by.brik?is_from_webapp=1&sender_device=pc" 
+								target="_blank"> <img src="tiktok_icon.png" alt="TikTok brïk"   class="social-media"> <p>Tiktok</p>		
+						</div>
+					</div>
+				</div>
+			</footer>
+	</body>
+</html>
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" type="x-icon" href="logo.jpg">
+	<link rel="stylesheet" href="bringtop.css">
+	<link rel="stylesheet" href="headerstyle.css">
+	<link rel="stylesheet" href="marqueestyle.css">
+	<link rel="stylesheet" href="footerstyle.css">
+	<link rel="stylesheet" href="popoutstyle.css">
+	<link rel="stylesheet" href="menubarstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+	
+    <title>Disclaimer - brïk</title>	
+	<body>
+		<header>
+			<div class="logo">
+	<img src="logo.jpg" alt="brïk logo">
+	<span style="margin-right: 20px;"><a href="index.html">Home</span>	
+				<a href="about_us.html">About Us</a>
+				
+			</div>
+		</header>
+			<div class="marquee-container">
+				<div class="marquee">
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+					<span>Hi There, explore now and get brïk-ed!💌</span>
+				</div>
+			</div>
+		<div class="container">
+			<h1>Disclaimer</h1>
+
+			<div class="subtitle">
+				<br> The content on this website, including text, images, logos, and other media, is for assignment purposes only. Some materials may be sourced from third-party websites. All trademarks, logos, and images remain the property of the respective owners which is bybrik.my, used solely for illustrative and informational purposes without implying affiliation, endorsement, or sponsorship. This website is created exclusively for educational purposes, specifically for Semester 5 IMD318 - Introduction to Web Content Management and Design in the CDIM110 Diploma in Information Management course. It is not intended for commercial use.</br>
+			</div>
+			
+		</div>
+		
+		
+		
+			<div class="content">
+			<!-- Add content to scroll -->
+			<div style="height: 200px;"></div>
+		</div>
+			<div class="menu-icon">
+				<img src="campaignlogo.png" alt="brik-ed campaign" class="denim-icon">
+			</div>
+		<div class="dropdown-menu">
+			<ul>
+				<li><a href="wimb.html">#WIMBrïk CAMPAIGN</li>
+				<li><a href="trade_in.html">trade-in CAMPAIGN</a></li>
+			</ul>
+			<script src="dropdown.js"></script>
+		</div>
+			
+		<button id="backToTop" onclick="scrollToTop()">
+			<img src="arrow.png" alt="Back to Top" class="back-to-top-logo">
+		</button>
+
+		<script>
+			// Show the "Back to Top" button when the user scrolls down
+			window.onscroll = function() {
+				const button = document.getElementById("backToTop");
+				if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+					button.style.display = "block";
+				} else {
+					button.style.display = "none";
+				}
+			};
+
+			// Scroll to the top function
+			function scrollToTop() {
+				window.scrollTo({top: 0, behavior: 'smooth'});
+			}
+	
+			function closePopup() {
+				const popup = document.getElementById('popup');
+				popup.style.animation = "fadeOut 0.5s ease";
+				setTimeout(() => popup.style.display = "none", 500);
+			}
+			// Menu section
+			const menuIcon = document.querySelector('.menu-icon');
+				const dropdownMenu = document.querySelector('.dropdown-menu');
+				menuIcon.addEventListener('click', () => {
+				dropdownMenu.style.display =
+				dropdownMenu.style.display === 'block' ? 'none' : 'block';
+			});
+		</script>
+			<footer class="footer">
+				<div class="footer-content">
+					<div class="footer-center">
+						<p>&copy; 2025 brïk. All rights reserved.</p>
+						<p>Follow us:</p>	
+							<br><div class="social-media"></br>
+								<a href="https://www.instagram.com/by.brik?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+								target="_blank"> <img src="insta_icon.png" alt="Instagram brïk"   class="social-media"> <p>Instagram</p>
+								</a>
+								<a href="https://www.tiktok.com/@by.brik?is_from_webapp=1&sender_device=pc" 
+								target="_blank"> <img src="tiktok_icon.png" alt="TikTok brïk"   class="social-media"> <p>Tiktok</p>		
+						</div>
+					</div>
+				</div>
+			</footer>
+	</body>
+</html>
+
